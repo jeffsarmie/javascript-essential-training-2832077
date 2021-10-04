@@ -7,3 +7,14 @@
  * - Find an object that has another object inside of it to create a nested object.
  * - Test your objects in the browser console by accessing the entire object and its specific properties.
  */
+
+const cookieJar = {
+  size: "Small",
+  volume: 15,
+  cookieJarEmpty: false,
+  checkCookieJarEmpty: function (yesCookie) {
+    this.cookieJarEmpty = yesCookie;
+  },
+};
+
+console.log(cookieJar);
